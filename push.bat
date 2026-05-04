@@ -1,0 +1,13 @@
+@echo off
+echo Adding files...
+git add .
+
+echo Committing changes...
+git commit -m "Auto update: %date% %time%"
+
+echo Pushing to GitHub...
+git push
+
+echo.
+echo Successfully pushed to GitHub!
+pause
